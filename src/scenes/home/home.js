@@ -63,6 +63,7 @@ class Home extends Component {
     }
   }
 
+
   updateRootAuthState = (cb) => {
     const cookies = CookieHelpers.getUserStatus();
     this.setState({
